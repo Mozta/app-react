@@ -27,6 +27,7 @@ const App = () => {
       ) : (
         <>
           <h3>No tienes permitido estar aqui.</h3>
+          <h4>Por favor, inicia sesión</h4>
           <Login setSesion={setSesion} />
           {/* <button onClick={() => setSesion(true)}>Iniciar sesión</button> */}
         </>
